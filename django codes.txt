@@ -1,0 +1,6 @@
+python3 -m venv myenv
+cd myenv\Scripts\activate
+pip install Django
+django-admin startproject myproject
+cd projectname
+python manage.py startapp myproject
